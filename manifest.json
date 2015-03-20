@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Youtube Searcher",
+  "description": "Ads a context menu item to search for selected text on Youtube",
+  "version": "1.0",
+
+  "icons":{
+	"16": "icon16.png",
+	"48": "icon48.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+	"http://*/",
+    "https://*/"
+  ],
+  
+  "background": {
+    "scripts": ["background.js"]
+  }
+  
+}
