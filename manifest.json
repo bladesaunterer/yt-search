@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Youtube Searcher",
-  "description": "Ads a context menu item to search for selected text on Youtube",
+  "description": "Adds a context menu item to search for selected text on Youtube",
   "version": "1.0",
 
   "icons":{
